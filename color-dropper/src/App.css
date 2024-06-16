@@ -1,0 +1,20 @@
+.app{
+  width: 300px;
+  height:300px;
+  padding: 2rem;
+  text-align: center;
+  text-align:center;
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.cursor{
+  cursor: url(./assets/dropper16.png), auto;
+}

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Color Dropper",
+    "description": "color dropper extension",
+    "version": "1.0",
+    "icons": {
+      "32": "dropper.png"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "host_permissions": [
+      "https://*.example.com/"
+    ],
+    "permissions": [
+      "storage",
+      "scripting"
+    ]
+  }
