@@ -8,13 +8,11 @@
   color: black;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
 .cursor{
   cursor: url(./assets/dropper16.png), auto;
+  background-color: red;
+}
+
+h1{
+  background-color: red;
 }

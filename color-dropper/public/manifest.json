@@ -4,16 +4,25 @@
     "description": "color dropper extension",
     "version": "1.0",
     "icons": {
-      "32": "dropper.png"
+      "32": "dropper32.png"
     },
     "action": {
       "default_popup": "index.html"
     },
     "host_permissions": [
-      "https://*.example.com/"
+      "https://*/*",
+      "http://*/*"
     ],
     "permissions": [
       "storage",
-      "scripting"
-    ]
+      "scripting",
+      "tabs",
+      "activeTab"
+    ],
+    "web_accessible_resources": [
+    {
+      "resources": [ "dropper16.png" ],
+      "matches": [ "https://*/*", "http://*/*"]
+    }
+  ]
   }
